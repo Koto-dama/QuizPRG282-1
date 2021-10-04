@@ -21,7 +21,7 @@ namespace QuizPRG282
         private void btnReadFile_Click(object sender, EventArgs e)
         {
             string path = @".\Quiz.txt";
-
+            //Comment String
             string[] content = File.ReadAllLines(path, Encoding.UTF8);
             foreach (string item in content)
             {
