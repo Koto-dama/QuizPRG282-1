@@ -17,5 +17,9 @@ namespace QuizPRG282
             InitializeComponent();
         }
 
+        private void btnReadFile_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
